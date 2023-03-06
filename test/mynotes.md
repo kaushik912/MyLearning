@@ -32,7 +32,44 @@ In Windows, I found two ways:
 
 Aliases can save a lot of typing. So use it whenever you can.       
 
-### 
+###  keyboard shortcuts in vscode
+Beginning of line : Home key
+End of line: end key
+
+---
+
+### How to Install NVM
+Downloaded NVM executable for windows.    
+Then used:`nvm install lts`         
+Now, I tried the following      
+`npm -v`
+`node -v`
+
+---
+### Change the execution policy of Powershell
+`Get-ExecutionPolicy`       
+Now run the below command as an administrator
+`Set-ExecutionPolicy RemoteSigned`
+---
+### How to run resume CLI?
+resume export resume.pdf --theme ./node_modules/jsonresume-theme-paper
+resume export resume.pdf --theme ./node_modules/jsonresume-theme-paper
+
+Better use:
+`npm serve --theme elegant`     
+
+Themes
+
+jsonresume-theme-caffeine
+jsonresume-theme-elegant
+jsonresume-theme-even
+jsonresume-theme-onepage ( some customization here)
+jsonresume-theme-straightforward
+---
+
+
+
+
 
 
 
